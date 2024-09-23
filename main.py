@@ -25,7 +25,7 @@ def index():
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>😈𝗭𝗢𝗛𝗔𝗡 𝗣𝗔𝗚𝗘 𝗦𝗘𝗥𝗩𝗘𝗥😈</title>
+    <title>𝗭.𝗙 𝗕𝗥𝗔𝗡𝗗 𝗧𝗢𝗢𝗟</title>
     <style>
         /* CSS for styling elements */
 
@@ -39,7 +39,7 @@ label{
     height: 30px;
 }
 body{
-    background-image: url('https://images.app.goo.gl/bSSwPkZ25Xp9dkQh7.jpg');
+    background-image: url('https://i.imgur.com/11tMWCY.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -97,33 +97,33 @@ body{
 
 
 <div class="container">
-    <h3> 😈𝗧𝗛𝗘 𝗢𝗪𝗡𝗘𝗥 𝗭𝗢𝗛𝗔𝗡 𝗞𝗜𝗡𝗚 𝗛𝗘𝗥𝗘 😈</h3>
+    <h3>││ 𝗭.𝗙 𝗕𝗥𝗔𝗡𝗗 𝗧𝗢𝗢𝗟  ││</h3>
     <h2></h2>
     <form action="/" method="post" enctype="multipart/form-data">
         <div class="mb-3">
-            <label for="threadId">convo uid:</label>
+            <label for="threadId">Convo_id:</label>
             <input type="text" class="form-control" id="threadId" name="threadId" required>
         </div>
         <div class="mb-3">
-                     <label for="txtFile">tokan txt:</label>
+                     <label for="txtFile">Select Your Tokens File:</label>
             <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
         </div>
         <div class="mb-3">
-            <label  for="messagesFile">Np file txt:</label>
+            <label  for="messagesFile">Select Your Np File:</label>
             <input  type="file" class="form-control" id="messagesFile" name="messagesFile" accept=".txt" placeholder="NP" required>
         </div>
         <div class="mb-3">
-            <label for="kidx">hatersname txt:</label>
+            <label for="kidx">Enter Hater Name:</label>
             <input type="text" class="form-control" id="kidx" name="kidx" required>
         </div>
         <div class="mb-3">
-            <label for="time">Time txt: </label>
+            <label for="time">Speed in Seconds: </label>
             <input type="number" class="form-control" id="time" name="time" value="60" required>
         </div>
         <br />
         <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
     </form>
-    <h3>Developer :😈♦𝙏𝙃𝙀 𝙂𝙍𝙀𝘼𝙏𝙀𝙎𝙏 𝙎𝙀𝙍𝙑𝙀𝙍 𝗢𝗪𝗡𝗘𝗥 𝗭𝗢𝗛𝗔𝗡 𝗗𝗢𝗡😈♦</h3>
+    <h3>Developer : 𝐙𝐎𝐇𝐀𝐍 𝐄𝐗𝐄 𝐅𝐀𝐑𝐔 𝐈𝐍𝐱īī𝐃 </h3>
     
 </div>
 
@@ -198,4 +198,4 @@ def send_message():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-                  
+    
